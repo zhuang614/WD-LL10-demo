@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #2D3250;
+  --accent-color: #7077A1;
+  --background-color: #F6F4EB;
+  --card-background: #ffffff;
+}
+
+body {
+  background-color: var(--background-color) !important;
+  font-family: "Poppins", serif;
+}
+
+.navbar {
+  background-color: var(--primary-color) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-section {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 80px 0;
+  margin-bottom: 40px;
+}
+
+.hero-section h1 {
+  color: white;
+  font-size: 3.5rem;
+  line-height: 1.2;
+}
+
+.hero-section .lead {
+  font-size: 1.25rem;
+  opacity: 0.9;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+}
+
+.fa-check-circle {
+  color: #4CAF50;
+}
+
+.hero-section img {
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.card {
+  border: none !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1) !important;
+  background-color: var(--card-background) !important;
+}
+
+.btn-danger {
+  background-color: var(--accent-color) !important;
+  border: none !important;
+  padding: 12px 24px !important;
+  border-radius: 8px !important;
+  transition: transform 0.2s ease !important;
+}
+
+.btn-danger:hover {
+  transform: translateY(-2px);
+}
+
+.list-group-item {
+  border: 1px solid rgba(0, 0, 0, 0.1) !important;
+  margin-bottom: 8px !important;
+  border-radius: 8px !important;
+  padding: 12px !important;
+}
+
+.winner {
+  font-weight: 600;
+  color: #2e7d32 !important;
+}
+
+#winner-emoji {
+  font-size: 50px;
+}
+
+#comments-list {
+  padding: 16px;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+#search-input {
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: 2px solid var(--accent-color);
+}
+
+#search-input:focus {
+  box-shadow: 0 0 0 0.2rem rgba(112, 119, 161, 0.25);
+  border-color: var(--accent-color);
+}
+
+footer {
+  background-color: var(--primary-color) !important;
+}
