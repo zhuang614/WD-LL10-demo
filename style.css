@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #2D3250;
-  --accent-color: #7077A1;
-  --background-color: #F6F4EB;
+  --primary-color: #2d3250;
+  --accent-color: #7077a1;
+  --background-color: #f6f4eb;
   --card-background: #ffffff;
 }
 
@@ -40,7 +40,7 @@ body {
 }
 
 .fa-check-circle {
-  color: #4CAF50;
+  color: #4caf50;
 }
 
 .hero-section img {
@@ -105,4 +105,25 @@ body {
 
 footer {
   background-color: var(--primary-color) !important;
+}
+
+/* LEVEL UP  */
+
+@keyframes winnerPulse {
+  0% {
+    transform: scale(1);
+    background-color: var(--card-background);
+  }
+  50% {
+    transform: scale(1.02);
+    background-color: #e8f5e9;
+  }
+  100% {
+    transform: scale(1);
+    background-color: var(--card-background);
+  }
+}
+
+.winner {
+  animation: winnerPulse 2s ease-in-out infinite;
 }
