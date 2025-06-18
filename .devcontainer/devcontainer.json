@@ -1,6 +1,5 @@
 {
-  "build": { "dockerfile": "Dockerfile", "context": "." },
-  "containerEnv": { "ENABLE_ORYX_BUILD": "false" },
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "customizations": {
     "vscode": {
       "extensions": [
